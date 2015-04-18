@@ -1,0 +1,24 @@
+/* this css code only used for the gh-pages */
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+div, span {
+    line-height: 1.5;
+}
+.comment {
+    border: 1px solid #e7e7e7;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.example {
+    /*text-align: left;*/
+}
+
+.note {
+    color: #B10DC9;
+}

@@ -1,0 +1,86 @@
+.word-thumb.circle {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px; }
+
+.word-thumb.hexagon {
+  width: 100px;
+  height: 55px;
+  position: relative; }
+.word-thumb.hexagon:before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid currentColor; }
+.word-thumb.hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 25px solid currentColor; }
+
+.word-thumb.heart {
+  position: relative;
+  width: 100px;
+  height: 90px; }
+.word-thumb.heart:before, .word-thumb.heart:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: currentColor;
+  -moz-border-radius: 50px 50px 0 0;
+  border-radius: 50px 50px 0 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%; }
+.word-thumb.heart:after {
+  left: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  transform-origin: 100% 100%; }
+
+.word-thumb {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; }
+  .word-thumb.square {
+    width: 80px;
+    height: 80px; }
+  .word-thumb.rounded {
+    border-radius: 3px;
+    width: 80px;
+    height: 80px; }
+  .word-thumb > .word {
+    color: white;
+    font-size: 40px;
+    z-index: 1000;
+    margin: 0;
+    padding: 0; }
+
+/*# sourceMappingURL=word-thumbnail.css.map */

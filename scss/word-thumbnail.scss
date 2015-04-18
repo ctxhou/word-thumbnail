@@ -1,0 +1,25 @@
+@import "circle";
+@import "hexagon";
+@import "heart";
+
+.word-thumb {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    &.square {
+        width: 80px;
+        height: 80px;
+    }
+    &.rounded {
+        border-radius: 3px;
+        width: 80px;
+        height: 80px;
+    }
+    & > .word {
+        color: white;
+        font-size: 40px;
+        z-index: 1000;
+        margin: 0;
+        padding: 0;
+    }
+}
