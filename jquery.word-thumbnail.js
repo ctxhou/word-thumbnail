@@ -1,6 +1,6 @@
 ;(function($) {
     // source: https://github.com/mrmrs/colors
-    var colors = ["#7FDBFF","#0074D9","#01FF70","#001F3F","#39CCCC","#3D9970","#2ECC40","#FF4136","#85144B","#FF851B","#B10DC9","#FFDC00","#F012BE","#aaa","#fff","#111","#ddd"];
+    var colors = ["#7FDBFF","#0074D9","#01FF70","#001F3F","#39CCCC","#3D9970","#2ECC40","#FF4136","#85144B","#FF851B","#B10DC9","#FFDC00","#F012BE","#aaa","#111","#ddd"];
 
     $.fn.wordThumbnail = function(options) {
         options = $.extend({
