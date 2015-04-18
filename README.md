@@ -4,7 +4,8 @@ Word thumbnail is a jquery plugin to help you make `word thumbnail` very easily.
 
 ## Usage
 
-Reference [usage]() page.
+Reference [usage](http://ctxhou.github.io/word-thumbnail/) page.
+
 
 ### Special thanks
 
