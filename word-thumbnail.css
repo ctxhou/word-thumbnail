@@ -72,6 +72,10 @@
   .word-thumb.square {
     width: 80px;
     height: 80px; }
+  .word-thumb.rounded {
+    border-radius: 3px;
+    width: 80px;
+    height: 80px; }
   .word-thumb > .word {
     color: white;
     font-size: 40px;

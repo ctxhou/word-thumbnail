@@ -10,6 +10,11 @@
         width: 80px;
         height: 80px;
     }
+    &.rounded {
+        border-radius: 3px;
+        width: 80px;
+        height: 80px;
+    }
     & > .word {
         color: white;
         font-size: 40px;

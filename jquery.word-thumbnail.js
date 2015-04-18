@@ -39,8 +39,7 @@
                     break;
                 case ('rounded'):
                     $this.css('background-color', bkg_color);
-                    $this.addClass('square');
-                    $this.css('border-radius', '3px');
+                    $this.addClass('rounded');
                     break;
                 case ('hexagon'):
                     $this.css('background-color', bkg_color);
@@ -58,12 +57,12 @@
         // edit text size
         $self.find(".word").css("font-size", options.font_size)
         // edit shape attribute
-        shape(options)
+        shape($self, options)
     }
 
-    function shape(options) {
-        if (options.shape === "rounded" || options.shape === "square") {
-            $(".word-thumb.square").css({
+    function shape(self, options) {
+        if (options.shape === "rounded" || options.shape === "square" || options.shape == "circle") {
+            self.css({
                 "width": options.width,
                 "height": options.width
             });

@@ -9,6 +9,12 @@ default color: [https://github.com/mrmrs/colors](https://github.com/mrmrs/colors
 
 shapes: [css-tricks](http://css-tricks.com/examples/ShapesOfCSS/)
 
+
+### Develop
+
+`css`
+
+    scss --watch scss/word-thumbnail.scss:word-thumbnail.css
 ## License
 
 The MIT License (MIT)
